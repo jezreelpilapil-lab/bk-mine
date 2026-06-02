@@ -207,14 +207,15 @@ const { reservations } = useReservations(); // Auto-subscribed
 
 ## Roadmap
 
-- [ ] Payment integration
+- [ ] Session management screens
+- [ ] Reservation system
+- [ ] Queue monitoring
 - [ ] Advanced search and filters
 - [ ] User ratings and reviews
 - [ ] Direct messaging
 - [ ] Social sharing
 - [ ] Analytics dashboard
 - [ ] Push notifications
-- [ ] Image gallery
 
 ## Troubleshooting
 
