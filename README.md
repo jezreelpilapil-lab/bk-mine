@@ -54,38 +54,6 @@ BK Mine is a mobile-first application that helps handcrafted food sellers manage
 
 ## Quick Start
 
-### Prerequisites
-- Node.js 18+
-- npm or yarn
-- Expo account
-- Supabase account
-
-### Installation
-
-```bash
-# Clone repository
-git clone https://github.com/jezreelpilapil-lab/bk-mine.git
-cd bk-mine
-
-# Install dependencies
-npm install
-
-# Setup environment variables
-cp .env.example .env
-# Edit .env with your Supabase credentials
-
-# Start development server
-npm start
-
-# Run on iOS
-npm run ios
-
-# Run on Android
-npm run android
-
-# Run on Web
-npm run web
-```
 
 ## Documentation
 
@@ -94,23 +62,6 @@ npm run web
 - 🏗️ [Architecture Guide](./ARCHITECTURE.md) - Project structure and design patterns
 - 📚 [Database Schema](./scripts/database-schema.sql) - SQL schema and RLS policies
 
-## Project Structure
-
-```
-bk-mine/
-├── src/
-│   ├── app/                    # Expo Router pages
-│   ├── components/             # Reusable UI components
-│   ├── features/               # Feature modules (auth, sessions, etc.)
-│   ├── lib/                    # Utilities (supabase, theme, validators)
-│   ├── hooks/                  # Custom React hooks
-│   ├── types/                  # TypeScript definitions
-│   └── utils/                  # Helper functions
-├── scripts/                    # Setup and utility scripts
-├── app.json                    # Expo configuration
-├── package.json                # Dependencies
-└── README.md                   # This file
-```
 
 ## User Roles
 
@@ -219,16 +170,6 @@ const { reservations } = useReservations(); // Auto-subscribed
 
 ## Troubleshooting
 
-### Build Issues
-```bash
-# Clear cache and reinstall
-rm -rf node_modules package-lock.json
-npm install
-
-# Clear Expo cache
-rm -rf .expo
-```
-
 ### Database Connection
 - Verify Supabase URL in `.env`
 - Check anon key is correct
@@ -245,17 +186,6 @@ rm -rf .expo
 - 🐛 [Report Issues](https://github.com/jezreelpilapil-lab/bk-mine/issues)
 - 💬 [Discussions](https://github.com/jezreelpilapil-lab/bk-mine/discussions)
 
-## License
 
-MIT © 2024 BK Mine
-
-## Acknowledgments
-
-- Built with [Expo](https://expo.dev)
-- Powered by [Supabase](https://supabase.com)
-- Styled with [NativeWind](https://www.nativewind.dev)
-- State management with [Zustand](https://github.com/pmndrs/zustand)
-
----
 
 Made with ❤️ for food sellers and customers
